@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "dist/",
   "appid": "wx62513a225568879a",
-  "projectname": "lemon-shop-mp",
+  "projectname": "remax-wechat",
   "setting": {
     "urlCheck": false,
     "es6": false,
