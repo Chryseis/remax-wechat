@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Text, Image } from 'remax/wechat';
-import styles from './index.css';
+import styles from './index.less';
 import Chart from 'remax-chart'
 
 const option ={
