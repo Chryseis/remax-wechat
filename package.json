@@ -9,14 +9,15 @@
   "license": "MIT",
   "scripts": {
     "dev": "remax build -t wechat -w",
-    "build": "cross-env NODE_ENV=production remax build -t wechat"
+    "build": "cross-env NODE_ENV=production remax build -t wechat",
+    "analyze": "cross-env NODE_ENV=production remax build -t wechat -a"
   },
   "dependencies": {
     "@antv/wx-f2": "^2.1.1",
     "@remax/plugin-less": "^1.0.0",
     "@vant/weapp": "^1.6.7",
     "react": "^16.14.0",
-    "remax": "^2.11.0",
+    "remax": "^2.11.4",
     "remax-chart": "^1.0.3"
   },
   "devDependencies": {
