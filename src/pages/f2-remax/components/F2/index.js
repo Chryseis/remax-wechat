@@ -47,6 +47,12 @@ export default ({ onInit }) => {
           canvasEl.current = chart.get('el');
         }
       });
+
+    return () => {
+      if (canvasEl.current) {
+        canvasEl.current = null;
+      }
+    };
   }, []);
 
   return (
