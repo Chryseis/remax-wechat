@@ -76,6 +76,11 @@
           "pathName": "pages/custom/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/f2-remax/index",
+          "pathName": "pages/f2-remax/index",
+          "scene": null
         }
       ]
     }

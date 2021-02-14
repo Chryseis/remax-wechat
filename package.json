@@ -8,11 +8,12 @@
   "author": "allen <294931812@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "remax build -t wechat -w",
+    "dev": "remax build -t wechat -w --loglevel debug",
     "build": "cross-env NODE_ENV=production remax build -t wechat",
     "analyze": "cross-env NODE_ENV=production remax build -t wechat -a"
   },
   "dependencies": {
+    "@antv/f2": "^3.8.1",
     "@antv/wx-f2": "^2.1.1",
     "@remax/plugin-less": "^1.0.0",
     "@vant/weapp": "^1.6.7",
