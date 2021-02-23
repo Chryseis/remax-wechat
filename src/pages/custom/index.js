@@ -5,8 +5,6 @@ import React, { useState } from 'react';
 import { View } from 'remax/wechat';
 
 const CustomChild = ({ customTouch, count }) => {
-  customTouch();
-
   return (
     <View onClick={customTouch}>
       Child
@@ -15,17 +13,20 @@ const CustomChild = ({ customTouch, count }) => {
           e.stopPropagation();
           customTouch();
         }}
-        count={count}
       >
-        Son
+        {`Son${count}`}
       </View>
     </View>
   );
 };
 
 function Custom() {
-  const onClick = () => console.log('father love child');
   const [count, setCount] = useState(1);
+
+  const onClick = () => {
+    setCount(2);
+    console.log('father love child');
+  };
 
   return (
     <View>

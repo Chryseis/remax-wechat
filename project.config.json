@@ -80,6 +80,18 @@
         {
           "name": "pages/f2-remax/index",
           "pathName": "pages/f2-remax/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "package/pages/subPage/index",
+          "pathName": "package/pages/subPage/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "package/pages/subPage/index",
+          "pathName": "package/pages/subPage/index",
           "scene": null
         }
       ]
