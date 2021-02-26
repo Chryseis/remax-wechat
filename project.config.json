@@ -92,6 +92,12 @@
         {
           "name": "package/pages/subPage/index",
           "pathName": "package/pages/subPage/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/echart/index",
+          "pathName": "pages/echart/index",
           "scene": null
         }
       ]

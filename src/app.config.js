@@ -1,5 +1,12 @@
 module.exports = {
-  pages: ['pages/index/index', 'pages/f2/index', 'pages/vant/index', 'pages/custom/index', 'pages/f2-remax/index'],
+  pages: [
+    'pages/index/index',
+    'pages/f2/index',
+    'pages/vant/index',
+    'pages/custom/index',
+    'pages/f2-remax/index',
+    'pages/echart/index'
+  ],
   subPackages: [
     {
       root: 'package',
