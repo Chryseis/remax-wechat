@@ -17,6 +17,7 @@
     "@antv/wx-f2": "^2.1.1",
     "@remax/plugin-less": "^1.0.0",
     "@vant/weapp": "^1.6.7",
+    "prism-react-renderer": "^1.2.0",
     "react": "^16.14.0",
     "remax": "^2.11.4",
     "remax-chart": "^1.0.3"

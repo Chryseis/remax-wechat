@@ -5,7 +5,8 @@ module.exports = {
     'pages/vant/index',
     'pages/custom/index',
     'pages/f2-remax/index',
-    'pages/echart/index'
+    'pages/echart/index',
+    'pages/codeMirror/index'
   ],
   subPackages: [
     {

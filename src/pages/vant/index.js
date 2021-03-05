@@ -4,11 +4,28 @@ import { View, Text, Image } from 'remax/wechat';
 import Calendar from '@vant/weapp/lib/calendar';
 import Progress from '@vant/weapp/lib/progress';
 import Switch from '@vant/weapp/lib/switch';
+import ActionSheet from '@vant/weapp/lib/action-sheet';
+
+const actions = [
+  {
+    name: '选项'
+  },
+  {
+    name: '选项'
+  },
+  {
+    name: '选项',
+    subname: '描述信息',
+    openType: 'share'
+  }
+];
 
 export default function Vant() {
   const [visible, setVisible] = useState(false);
 
   const [checked, setChecked] = useState(false);
+
+  const [sheetVisible, setSheetVisible] = useState(false);
 
   const onOpen = () => {
     setVisible(true);
@@ -24,6 +41,12 @@ export default function Vant() {
     setChecked(detail);
   };
 
+  const onClose1 = () => {
+    setSheetVisible(false);
+  };
+
+  const onSelect = () => {};
+
   return (
     <View>
       <View onClick={onOpen}>开启</View>
@@ -34,6 +57,10 @@ export default function Vant() {
         <Switch checked={checked} bindchange={onChange} />
       </View>
       <Calendar show={visible} bindclose={onClose} bindconfirm={onConfirm} />
+      <View>
+        <View onClick={() => setSheetVisible(true)}>Click</View>
+        <ActionSheet show={sheetVisible} actions={actions} bindclose={onClose1} bindselect={onSelect} />
+      </View>
     </View>
   );
 }

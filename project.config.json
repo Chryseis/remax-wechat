@@ -98,6 +98,12 @@
         {
           "name": "pages/echart/index",
           "pathName": "pages/echart/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/codeMirror/index",
+          "pathName": "pages/codeMirror/index",
           "scene": null
         }
       ]
