@@ -6,7 +6,8 @@ module.exports = {
     'pages/custom/index',
     'pages/f2-remax/index',
     'pages/echart/index',
-    'pages/codeMirror/index'
+    'pages/codeMirror/index',
+    'pages/reactSpring/index'
   ],
   subPackages: [
     {
