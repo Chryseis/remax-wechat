@@ -22,7 +22,8 @@
     "react-motion": "^0.5.2",
     "react-spring": "^8.0.27",
     "remax": "^2.11.4",
-    "remax-chart": "^1.0.3"
+    "remax-chart": "^1.0.3",
+    "wxml-to-canvas": "^1.1.1"
   },
   "devDependencies": {
     "cross-env": "^7.0.2"

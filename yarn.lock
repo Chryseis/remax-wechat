@@ -7346,6 +7346,13 @@ which@^2.0.1, which@^2.0.2:
   dependencies:
     isexe "^2.0.0"
 
+widget-ui@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/widget-ui/-/widget-ui-1.0.2.tgz#d65a560b91739fbd0ea7c2f5f2d28fe4c0132470"
+  integrity sha512-gDXosr5mflJdMA1weU1A47aTsTFfMJhfA4EKgO5XFebY3eVklf80KD4GODfrjo8J2WQ+9YjL1Rd9UUmKIzhShw==
+  dependencies:
+    eventemitter3 "^4.0.0"
+
 worker-farm@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/worker-farm/-/worker-farm-1.7.0.tgz#26a94c5391bbca926152002f69b84a4bf772e5a8"
@@ -7396,6 +7403,13 @@ ws@^7:
   version "7.4.1"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.1.tgz#a333be02696bd0e54cea0434e21dcc8a9ac294bb"
   integrity sha512-pTsP8UAfhy3sk1lSk/O/s4tjD0CRwvMnzvwr4OKGX7ZvqZtUyx4KIJB5JWbkykPoc55tixMGgTNoh3k4FkNGFQ==
+
+wxml-to-canvas@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/wxml-to-canvas/-/wxml-to-canvas-1.1.1.tgz#64771473fb1e251bdad94f8c6ffa7dd64290e7ca"
+  integrity sha512-3mDjHzujY/UgdCOXij/MnmwJYerVjwkyQHMBFBE8zh89DK7h7UTzoydWFqEBjIC0rfZM+AXl5kDh9hUcsNpSmg==
+  dependencies:
+    widget-ui "^1.0.2"
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
